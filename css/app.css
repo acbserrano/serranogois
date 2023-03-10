@@ -9,3 +9,17 @@ h1 {
   letter-spacing: 0.1em;
   font-family: var(--main-font-family);
 }
+
+@media (max-width: 768px) {
+  .big-logo {
+    margin-top: 150px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .big-logo {
+    width: 300px;
+    margin-top: 80px;
+  }
+}
