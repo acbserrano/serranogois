@@ -1,0 +1,11 @@
+:root {
+  --main-font-family: "Mukta Mahee", sans-serif;
+  --secondaty-font-family: "Cormorant Garamond", serif;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 2.3rem;
+  letter-spacing: 0.1em;
+  font-family: var(--main-font-family);
+}
