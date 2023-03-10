@@ -21,14 +21,78 @@
       crossorigin="anonymous"
     />
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
     <link href="/css/app.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="index">
     <div class="container mt-5">
       <div class="row">
         <div class="col-6">
           <div class="words-logo bg-transparent">
             <h1>serrano <br />góis</h1>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="position-relative">
+            <div class="position-absolute top-0 end-0">
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle bg-transparent text-body border-0"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  onclick="rotate()"
+                >
+                  <img
+                    src="/images/menu-symbol.png"
+                    alt="menu symbol"
+                    class="menu-symbol"
+                    id="cross"
+                  />
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end border-0 rounded-0">
+                  <li>
+                    <a
+                      class="dropdown-item bg-transparent text-end"
+                      href="/pages/architecture.html"
+                      ><h2>architecture</h2></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item bg-transparent text-end"
+                      href="/pages/personal.html"
+                      ><h2>personal</h2></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item bg-transparent text-end"
+                      href="/pages/about.html"
+                      ><h2>about</h2></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item bg-transparent text-end"
+                      href="/pages/contact.html"
+                      ><h2>contact</h2></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
