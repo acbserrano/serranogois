@@ -67,6 +67,40 @@ a:hover {
   margin-top: 400px;
 }
 
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity ease-in-out 0.3s;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__title {
+  font-size: 50px;
+}
+
 @media (max-width: 768px) {
   h3 {
     font-size: 50px;
