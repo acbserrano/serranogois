@@ -63,7 +63,20 @@ a:hover {
   margin-top: 200px;
 }
 
+.contact-word {
+  margin-top: 400px;
+}
+
 @media (max-width: 768px) {
+  h3 {
+    font-size: 50px;
+    text-align: left;
+  }
+
+  p {
+    text-align: left;
+  }
+
   .big-logo {
     margin-top: 150px;
     width: 300px;
@@ -86,13 +99,8 @@ a:hover {
     margin-top: 180px;
   }
 
-  h3 {
-    font-size: 50px;
-    text-align: left;
-  }
-
-  p {
-    text-align: left;
+  .contact-word {
+    margin-top: 180px;
   }
 }
 
