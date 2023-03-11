@@ -150,6 +150,11 @@ a:hover {
     text-align: left;
   }
 
+  footer {
+    height: 140px;
+    padding-top: 10px;
+  }
+
   .big-logo {
     margin-top: 150px;
     width: 300px;
@@ -161,11 +166,6 @@ a:hover {
 
   .photography-text {
     display: none;
-  }
-
-  footer {
-    height: 140px;
-    padding-top: 10px;
   }
 
   .about-word {
@@ -191,6 +191,25 @@ a:hover {
 
   .container-grid {
     margin-bottom: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .big-logo {
+    width: 300px;
+    margin-top: 80px;
+  }
+  .photography-text {
+    margin-right: 350px;
+  }
+
+  .container-grid {
+    padding: 0px 50px 0px 50px;
+  }
+
+  footer {
+    height: 50px;
+    padding-top: 10px;
   }
 }
 
