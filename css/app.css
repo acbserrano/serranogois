@@ -109,6 +109,37 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.project-word {
+  font-size: 50px;
+  margin-top: 100px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.col-grid {
+  flex: 5%;
+  max-width: 25%;
+  padding: 0px 10px;
+}
+
+.col-grid img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+}
+
+.prev-next {
+  margin-bottom: 200px;
+}
+
 @media (max-width: 768px) {
   h3 {
     font-size: 50px;
@@ -152,6 +183,15 @@ a:hover {
   .last-row {
     margin-bottom: 200px;
   }
+
+  .col-grid {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .container-grid {
+    margin-bottom: 150px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -161,5 +201,9 @@ a:hover {
   }
   .photography-text {
     margin-right: 350px;
+  }
+
+  .container-grid {
+    padding: 0px 200px 0px 200px;
   }
 }
