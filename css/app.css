@@ -136,8 +136,8 @@ a:hover {
   cursor: pointer;
 }
 
-.prev-next {
-  margin-bottom: 200px;
+.next-prev-bottom {
+  margin-bottom: 150px;
 }
 
 @media (max-width: 768px) {
@@ -196,6 +196,10 @@ a:hover {
   .container-grid {
     margin-bottom: 150px;
   }
+
+  .next-prev-layout {
+    padding: 50px 10px 0px 10px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -210,6 +214,10 @@ a:hover {
 
   .container-grid {
     padding: 0px 50px 0px 50px;
+  }
+
+  .next-prev-layout {
+    padding: 50px 60px 0px 60px;
   }
 
   footer {
@@ -229,5 +237,9 @@ a:hover {
 
   .container-grid {
     padding: 0px 200px 0px 200px;
+  }
+
+  .next-prev-layout {
+    padding: 50px 210px 0px 210px;
   }
 }
