@@ -50,15 +50,18 @@ a:hover {
   text-decoration: underline;
 }
 
+.dropdown-toggle {
+  outline: none;
+}
+
 .dropdown-toggle::after {
   display: none;
+  outline: none;
 }
 
 .menu-symbol {
   width: 40px;
-  outline: none;
-  background-color: rgb(51, 255, 0);
-  outline: none;
+  background-color: red;
 }
 
 .about-word {
