@@ -52,11 +52,13 @@ a:hover {
 
 .dropdown-toggle {
   outline: none;
+  border: none;
 }
 
 .dropdown-toggle::after {
   display: none;
   outline: none;
+  border: none;
 }
 
 .menu-symbol {
