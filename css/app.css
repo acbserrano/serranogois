@@ -58,6 +58,7 @@ a:hover {
   width: 40px;
   outline: none;
   background-color: red;
+  outline: none !important;
 }
 
 .about-word {
