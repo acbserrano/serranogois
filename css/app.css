@@ -144,6 +144,10 @@ a:hover {
   opacity: 0.15;
 }
 
+img {
+  border: none;
+}
+
 @media (max-width: 768px) {
   h3 {
     font-size: 50px;
