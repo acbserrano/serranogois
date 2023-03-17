@@ -52,13 +52,13 @@ a:hover {
 
 .dropdown-toggle::after {
   display: none;
+  outline: none !important;
 }
 
 .menu-symbol {
   width: 40px;
   outline: none;
   background-color: red;
-  outline: none !important;
 }
 
 .about-word {
