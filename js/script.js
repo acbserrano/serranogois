@@ -5,8 +5,3 @@ function rotate() {
 lightbox.option({
   disableScrolling: true,
 });
-
-const img = document.querySelector("cross");
-img.addEventListener("click", function () {
-  this.style.border = "none";
-});
