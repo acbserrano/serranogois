@@ -50,20 +50,16 @@ a:hover {
   text-decoration: underline;
 }
 
-.dropdown-toggle {
-  outline: none;
-  border: none;
-}
-
 .dropdown-toggle::after {
   display: none;
-  outline: none;
-  border: none;
+}
+
+.btn.show:focus-visible {
+  box-shadow: none;
 }
 
 .menu-symbol {
   width: 40px;
-  background-color: blue;
 }
 
 .about-word {
