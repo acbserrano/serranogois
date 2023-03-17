@@ -59,6 +59,10 @@ a:hover {
   border: none;
 }
 
+.cross {
+  border: none;
+}
+
 .about-word {
   margin-top: 200px;
 }
