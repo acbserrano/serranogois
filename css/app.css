@@ -57,6 +57,7 @@ a:hover {
 .menu-symbol {
   width: 40px;
   outline: none;
+  background-color: red;
 }
 
 .about-word {
