@@ -162,8 +162,9 @@ img {
   }
 
   footer {
-    height: 100px;
+    height: 80px;
     padding-top: 10px;
+    font-size: 13px;
   }
 
   .big-logo {
@@ -232,8 +233,9 @@ img {
   }
 
   footer {
-    height: 50px;
+    height: 40px;
     padding-top: 10px;
+    font-size: 13px;
   }
 }
 
